@@ -6,7 +6,7 @@ metadata:
   namespace: monitoring
 spec:
   force: false
-  interval: 1h0m0s
+  interval: 1m0s
   path: ./manifests/monitoring/kube-prometheus-stack
   prune: true
   sourceRef:
